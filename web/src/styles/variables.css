@@ -1,0 +1,69 @@
+:root {
+  font-size: 16px;
+  --el-color-primary: #5798f3;
+  --el-color-success: #408559;
+  --el-color-warning: #f6c444;
+  --el-color-danger: #cb444a;
+  --el-color-info: #595959;
+  
+  --sidebar-bg: #e2e2e2;
+  --sidebar-text: #334155;
+  --sidebar-active: #5798f3;
+  --header-bg: #ffffff;
+  --main-bg: #ffffff;
+  
+  --spacing-xs: 6px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px; /* .375rem */
+  --border-radius-lg: 10px; /* .625rem */
+  
+  --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --box-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  
+  --el-font-size-extra-large: 20px;
+  --el-font-size-large: 18px;
+  --el-font-size-medium: 16px;
+  --el-font-size-base: 16px;
+  --el-font-size-small: 14px;
+  --el-font-size-extra-small: 12px;
+  --el-button-font-size: var(--el-font-size-base);
+  --el-input-font-size: var(--el-font-size-base);
+  --el-select-input-font-size: var(--el-font-size-base);
+  --el-table-font-size: var(--el-font-size-base);
+  --el-pagination-font-size: var(--el-font-size-base);
+  --el-form-label-font-size: var(--el-font-size-base);
+  --el-component-size: 32px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --spacing-lg: 14px;
+    --spacing-xl: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+    --spacing-xs: 6px;
+    --spacing-sm: 8px;
+    --spacing-md: 10px;
+    --spacing-lg: 12px;
+    --spacing-xl: 16px;
+
+    --el-font-size-extra-large: 18px;
+    --el-font-size-large: 16px;
+    --el-font-size-medium: 14px;
+    --el-font-size-base: 14px;
+    --el-font-size-small: 13px;
+    --el-font-size-extra-small: 12px;
+
+    --el-component-size: 28px;
+  }
+}
